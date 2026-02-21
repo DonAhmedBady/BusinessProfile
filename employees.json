@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1001",
+    "name": "Ahmed Hassan",
+    "position": "Cybersecurity Specialist",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Focused on Ethical Hacking and AI driven defense.",
+    "skills": ["Ethical Hacking", "C# / .NET", "Network Defense"],
+    "linkedin": "https://linkedin.com/in/ahmed-hassan-145699182/",
+    "email": "ahmed.hassan@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "profile.png",
+    "cover": "cover.png"
+  },
+
+    {
+    "id": "1002",
+    "name": "Mohammed (Ismail) Alamawy",
+    "position": "T-Shaped Cybersecurity & Data Innovator",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "cybersecurity and data innovator with expertise in driving secure, data-centric solutions and modern automation technologies",
+    "skills": ["Project Management", "Information Security", "IT Consulting"],
+    "linkedin": "https://www.linkedin.com/in/mismail-alamawy/",
+    "email": "m.ismail@cyberx.sa",
+    "location": "Al Madinah, Saudi Arabia",
+    "image": "m.ismail.png",
+    "cover": "cover.png"
+  }
+]
