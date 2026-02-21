@@ -199,7 +199,7 @@ function createProfile(employee) {
         `url('${employee.cover || "cover.png"}')`;
 
     const img = card.querySelector('.profile-img');
-    img.src = employee.image || "profile.png";
+    img.src = employee.image;
     img.alt = employee.name;
 
     card.querySelector('h1').textContent = employee.name;
@@ -260,4 +260,5 @@ function createProfile(employee) {
 </script>
 
 </body>
+
 </html>
