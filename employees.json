@@ -11,7 +11,8 @@
     "email": "ahmed.hassan@cyberx.sa",
     "location": "Riyadh, Saudi Arabia",
     "image": "a.hassan.png",
-    "cover": "cover.png"
+    "cover": "cover.png",
+    "vCard": "a.hassan.vcf"
   },
 
     {
@@ -26,8 +27,7 @@
     "email": "m.ismail@cyberx.sa",
     "location": "Al Madinah, Saudi Arabia",
     "image": "m.ismail.png",
-    "cover": "cover.png"
+    "cover": "cover.png",
+    "vCard": "m.ismail.vcf"
   }
-
 ]
-
