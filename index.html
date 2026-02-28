@@ -173,7 +173,7 @@ async function loadEmployees() {
     return res.json();
 }
 
-function createProfile(employee) {
+    function createProfile(employee) {
 
     const card = document.createElement('div');
     card.className = 'profile-card';
@@ -189,25 +189,28 @@ function createProfile(employee) {
             <div class="skills-container"></div>
             <div class="actions">
                 <a class="btn btn-primary" target="_blank">Connect on LinkedIn</a>
-                <button class="btn btn-outline">View Contact Info</button>
+                <button class="btn btn-outline">Download Contact</button>
             </div>
-            <div id="contact-reveal"></div>
         </div>
     `;
 
+    // Header cover
     card.querySelector('.header-visual').style.backgroundImage =
         `url('${employee.cover || "cover.png"}')`;
 
+    // Profile image
     const img = card.querySelector('.profile-img');
     img.src = employee.image;
     img.alt = employee.name;
 
+    // Basic info
     card.querySelector('h1').textContent = employee.name;
     card.querySelector('.title').textContent = employee.position;
     card.querySelector('.company-link').textContent = employee.company;
     card.querySelector('.company-link').href = employee.website || "#";
     card.querySelector('.bio').textContent = employee.bio || "";
 
+    // Skills
     const skillsContainer = card.querySelector('.skills-container');
     (employee.skills || []).forEach(skill => {
         const span = document.createElement('span');
@@ -216,19 +219,23 @@ function createProfile(employee) {
         skillsContainer.appendChild(span);
     });
 
-    const linkedinBtn = card.querySelector('.btn-primary');
-    linkedinBtn.href = employee.linkedin || "#";
+    // LinkedIn button
+    card.querySelector('.btn-primary').href = employee.linkedin || "#";
 
-    const contactDiv = card.querySelector('#contact-reveal');
-    contactDiv.innerHTML = `
-        <p>📧 ${employee.email || ""}</p>
-        <p>📍 ${employee.location || ""}</p>
-    `;
+    // Download vCard button for GitHub Pages
+    const downloadBtn = card.querySelector('.btn-outline');
+    downloadBtn.addEventListener('click', () => {
+        if (!employee.vCard) return;
 
-    const toggleBtn = card.querySelector('.btn-outline');
-    toggleBtn.addEventListener('click', () => {
-        contactDiv.style.display =
-            contactDiv.style.display === 'block' ? 'none' : 'block';
+        // Adjust path relative to GitHub Pages repo
+        // If vCards are in root of repo:
+        const ghPagesUrl = `${window.location.origin}/${employee.vCard}`;
+        const link = document.createElement('a');
+        link.href = ghPagesUrl;
+        link.download = employee.vCard;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     });
 
     return card;
@@ -262,3 +269,4 @@ function createProfile(employee) {
 </body>
 
 </html>
+
