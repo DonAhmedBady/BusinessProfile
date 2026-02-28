@@ -224,7 +224,7 @@ async function loadEmployees() {
 
     // Download vCard button for GitHub Pages
     const downloadBtn = card.querySelector('.btn-outline');
-    alert (employee.vCard);
+    alert (window.location.origin} + "/" + employee.vCard);
     downloadBtn.addEventListener('click', () => {
         if (!employee.vCard) return;
 
@@ -271,6 +271,7 @@ async function loadEmployees() {
 </body>
 
 </html>
+
 
 
 
