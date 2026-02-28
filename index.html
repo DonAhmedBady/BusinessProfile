@@ -229,7 +229,8 @@ async function loadEmployees() {
 
         // Adjust path relative to GitHub Pages repo
         // If vCards are in root of repo:
-        const ghPagesUrl = employee.vCard;
+        const ghPagesUrl = '${window.location.origin}/${employee.vCard}';
+        alert(ghPagesUrl);
         const link = document.createElement('a');
         link.href = ghPagesUrl;
         link.download = employee.vCard;
@@ -269,6 +270,7 @@ async function loadEmployees() {
 </body>
 
 </html>
+
 
 
 
