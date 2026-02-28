@@ -224,21 +224,21 @@ async function loadEmployees() {
 
     // Download vCard button for GitHub Pages
     const downloadBtn = card.querySelector('.btn-outline');
-    alert (window.location.origin} + "/" + employee.vCard);
-    downloadBtn.addEventListener('click', () => {
-        if (!employee.vCard) return;
+   downloadBtn.addEventListener('click', () => {
+    if (!employee.vCard) return;
 
-        // Adjust path relative to GitHub Pages repo
-        // If vCards are in root of repo:
-        const ghPagesUrl = '${window.location.origin}/${employee.vCard}';
-        alert(ghPagesUrl);
-        const link = document.createElement('a');
-        link.href = ghPagesUrl;
-        link.download = employee.vCard;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    });
+    // Use a relative path so it stays within your GitHub repo folder
+    const fileUrl = `./${employee.vCard}`; 
+    
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = employee.vCard; // Suggests the filename to the browser
+    
+    // Append, click, and cleanup
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
 
     return card;
 }
@@ -271,6 +271,7 @@ async function loadEmployees() {
 </body>
 
 </html>
+
 
 
 
