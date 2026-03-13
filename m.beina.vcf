@@ -1,12 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
 FN:Mohammed Beina
-N:Beina;Mohammed;; 
-ORG:Business Manager
+N:Beina;Mohammed;;;
+ORG:CyberXi
 TITLE:Business Manager
-TEL;TYPE=CELL:+966 50 697 4239
-EMAIL:m.beina@cyberx.sa
-URL:https://www.linkedin.com/in/mohamed-beina-73a857319/
-ADR;TYPE=WORK:;;Saudi Arabia;;;;
+TEL;TYPE=CELL:+966506974239
+EMAIL;TYPE=INTERNET:m.beina@cyberx.sa
+URL:https://www.linkedin.com/in/mohamed-beina-73a857319
+ADR;TYPE=WORK:;;;Riyadh;;;Saudi Arabia
 NOTE:Business Management | Leadership | Planning and Organization
 END:VCARD
