@@ -29,5 +29,38 @@
     "image": "m.ismail.png",
     "cover": "cover.png",
     "vCard": "m.ismail.vcf"
+  },
+  {
+    "id": "1003",
+    "name": "Mohammed Beina",
+    "position": "Business Manager",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "organizing, and overseeing business operations to ensure the company achieves its goals.",
+    "skills": ["Business Management", "Leadership", "Planning and Organization"],
+    "linkedin": "https://www.linkedin.com/in/mohamed-beina-73a857319/",
+    "email": "mbeina@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "m.beina.png",
+    "cover": "cover.png",
+    "vCard": "m.beinal.vcf"
+  },
+
+    {
+    "id": "1004",
+    "name": "Hiba Alamin",
+    "position": "Sr.Cyber Security Specialist",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Cybersecurity professional with 14 years of experience in infrastructure and security, specializing in risk assessment, incident response, and vulnerability management.",
+    "skills": ["Security Architecture and Implementation", "Governance, Risk, and Compliance (GRC)", "Security Policy Development"],
+    "linkedin": "https://www.linkedin.com/in/hiba-alamin-mohamed-87581a42/",
+    "email": "hiba.a@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "girl.png",
+    "cover": "cover.png",
+    "vCard": "h.alamin.vcf"
   }
+
+  
 ]
