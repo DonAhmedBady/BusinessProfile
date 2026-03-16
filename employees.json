@@ -61,20 +61,24 @@
     "vCard": "h.alamin.vcf"
   },
   {
-    "id": "1005",
-    "name": "Bader Almarri",
-    "position": "Cyber Security GRC Specialist",
-    "company": "CyberXi",
-    "website": "https://cyberxi.sa",
-    "bio": "NCA.",
-    "skills": ["Cybersecurity Governance & Compliance","Risk Assessment & Management","Project Management"],
-    "linkedin": "https://www.linkedin.com/in/bader-almarri-4113833b4/",
-    "email": "bader.almarri@cyberx.sa",
-    "location": "Riyadh, Saudi Arabia",
-    "image": "bader.jpg",
-    "cover": "cover.png",
-    "vCard": "bader.vcf"
-  },
+  "id": "1005",
+  "name": "Bader Almarri",
+  "position": "Cyber Security GRC Specialist",
+  "company": "CyberXi",
+  "website": "https://cyberxi.sa",
+  "bio": "Develops NCA-aligned cybersecurity policies, leads awareness programs, manages risk and compliance assessments, designs disaster recovery plans, and oversees cybersecurity projects from planning to execution.",
+  "skills": [
+    "Cybersecurity Governance & Compliance",
+    "Risk Assessment & Management",
+    "Project Management"
+  ],
+  "linkedin": "https://www.linkedin.com/in/bader-almarri-4113833b4/",
+  "email": "bader.almarri@cyberx.sa",
+  "location": "Riyadh, Saudi Arabia",
+  "image": "bader.jpg",
+  "cover": "cover.png",
+  "vCard": "bader.vcf"
+},
   {
     "id": "1012",
     "name": "Ahmed Hassan",
