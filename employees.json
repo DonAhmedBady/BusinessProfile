@@ -1,6 +1,21 @@
 [
-  {
+    {
     "id": "1001",
+    "name": "Dr. Saad Alabdulsalam",
+    "position": "CEO",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Cybersecurity executive with over 16 years of experience in cyber risk, security operations, and cybersecurity leadership, currently serving as CEO of CyberXi in Saudi Arabia.",
+    "skills": ["Leadership & Team Buildingr", "Information Security", "Communication & Stakeholder Managemente"],
+    "linkedin": "https://www.linkedin.com/in/dr-saad-alabdulsalam-0a100686/",
+    "email": "saad@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "saad.png",
+    "cover": "cover.png",
+    "vCard": "saad.vcf"
+  },
+  {
+    "id": "1012",
     "name": "Ahmed Hassan",
     "position": "Cybersecurity Specialist",
     "company": "CyberXi",
