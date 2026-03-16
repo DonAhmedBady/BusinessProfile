@@ -14,6 +14,21 @@
     "cover": "cover.png",
     "vCard": "Dr.saad.vcf"
   },
+   {
+    "id": "1005",
+    "name": "Bader Almarri",
+    "position": "Cyber Security GRC Specialist",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Develops cybersecurity policies aligned with NCA and regulatory standards, leads awareness programs to strengthen security culture, designs disaster recovery and crisis management plans to ensure business continuity, conducts risk and compliance assessments (NCA, ISO 27001, NIST, SAMA, CST), and manages cybersecurity projects from planning through successful execution.",
+    "skills": ["Cybersecurity Governance & Compliance","Risk Assessment & Management","Project Management"],
+    "linkedin": "https://www.linkedin.com/in/bader-almarri-4113833b4/",
+    "email": "bader.almarri@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "bader.jpg",
+    "cover": "cover.png",
+    "vCard": "bader.vcf"
+  },
   {
     "id": "1012",
     "name": "Ahmed Hassan",
