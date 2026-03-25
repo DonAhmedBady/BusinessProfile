@@ -80,6 +80,27 @@
   "vCard": "bader.vcf"
   },
   {
+  "id": "1006",
+  "name": "Azzam ALmtrodi",
+  "position": "Cybersecurity Specialist",
+  "company": "CyberXi",
+  "website": "https://cyberxi.sa",
+  "bio": "Cybersecurity Specialist experienced in GRC, vulnerability management, incident response, and data protection, with a focus on compliance and secure systems.",
+  "skills": [
+    "Cybersecurity Governance & Compliance",
+    "Vulnerability Management",
+    "Incident Response"
+  ],
+  "linkedin": "https://www.linkedin.com/in/azzam-almtrodi-77350a2b5/",
+  "email": "azzam.almtrodi@cyberx.sa",
+  "location": "Riyadh, Saudi Arabia",
+  "image": "azzam.jpg",
+  "cover": "cover.png",
+  "vCard": "azzam.vcf"
+  },
+
+    
+  {
     "id": "1012",
     "name": "Ahmed Hassan",
     "position": "Cybersecurity Specialist",
