@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Hamad Alothman
+N:Alothman;Hamad;;;
+ORG:CyberXi
+TITLE:Sr. Cybersecurity Specialist
+TEL;TYPE=CELL:+966 54 449 6742
+EMAIL;TYPE=INTERNET:h.othman@cyberx.sa
+URL:https://www.linkedin.com/in/hamad-alothman-45654b1aa/
+ADR;TYPE=WORK:;;;Riyadh;;;Saudi Arabia
+NOTE:Vulnerability Assessment | Network Security | Incident Response
+END:VCARD
