@@ -98,7 +98,25 @@
   "cover": "cover.png",
   "vCard": "azzam.vcf"
   },
-
+ {
+  "id": "1007",
+  "name": "Abeer Alsamri",
+  "position": "Cybersecurity Specialist",
+  "company": "CyberXi",
+  "website": "https://cyberxi.sa",
+  "bio": "Cybersecurity Specialist experienced in GRC, vulnerability management, and incident response, with a focus on risk reduction and secure systems.",
+  "skills": [
+    "Cybersecurity Governance & Compliance",
+    "Vulnerability Management",
+    "Incident Response"
+  ],
+  "linkedin": "N/A",
+  "email": "abeer.alsmari@cyberx.sa",
+  "location": "Riyadh, Saudi Arabia",
+  "image": "girl.png",
+  "cover": "cover.png",
+  "vCard": "abeer.vcf"
+  },
     
   {
     "id": "1012",
