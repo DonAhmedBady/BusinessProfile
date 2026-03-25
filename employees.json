@@ -117,6 +117,25 @@
   "cover": "cover.png",
   "vCard": "abeer.vcf"
   },
+ {
+  "id": "1008",
+  "name": "Hamad Alothman",
+  "position": "Sr. Cybersecurity Specialist",
+  "company": "CyberXi",
+  "website": "https://cyberxi.sa",
+  "bio": "Senior Cybersecurity Specialist skilled in vulnerability assessment, incident response, and network security.",
+  "skills": [
+    "Vulnerability Assessment",
+    "Network Security",
+    "Incident Response"
+  ],
+  "linkedin": "https://www.linkedin.com/in/hamad-alothman-45654b1aa/",
+  "email": "h.othman@cyberx.sa",
+  "location": "Riyadh, Saudi Arabia",
+  "image": "hamad.jpg",
+  "cover": "cover.png",
+  "vCard": "hamad.vcf"
+  },
     
   {
     "id": "1012",
