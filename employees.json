@@ -151,5 +151,61 @@
     "image": "a.hassan.png",
     "cover": "cover.png",
     "vCard": "a.hassan.vcf"
+  },
+     {
+    "id": "1013",
+    "name": "Mashael Alharbi",
+    "position": "Cybersecurity Specialist",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Cybersecurity Specialist experienced in GRC, vulnerability management, and incident response, with a focus on risk reduction and secure systems.",
+     "skills": [
+    "Cybersecurity Governance & Compliance",
+    "Vulnerability Management",
+    "Incident Response"
+    ],
+    "linkedin": "https://www.linkedin.com/in/mashael-al-harbi-/",
+    "email": "m.alharbi@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "girl.png",
+    "cover": "cover.png",
+    "vCard": "mashael.vcf"
+   },
+
+  {
+    "id": "1014",
+    "name": "Shahad Alazmi",
+    "position": "Cybersecurity Specialist",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Cybersecurity Specialist experienced in GRC, vulnerability management, and incident response, with a focus on risk reduction and secure systems.",
+     "skills": [
+    "Cybersecurity Governance & Compliance",
+    "Vulnerability Management",
+    "Incident Response"
+    ],
+    "linkedin": "https://www.linkedin.com/in/shahadmalazmi/",
+    "email": "s.alazmi@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "girl.png",
+    "cover": "cover.png",
+    "vCard": "shahad.vcf"
+  },
+    
+  {
+    "id": "1015",
+    "name": "Ahmad Sallam",
+    "position": "Sales Director",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Developing and implementing comprehensive sales plans to expand the customer base and ensure a strong market presence.",
+    "skills": ["Communication", "Negotiation", "Revenue Forecasting"],
+    "linkedin": "https://www.linkedin.com/in/ahmad-sallam-849592249/",
+    "email": "a.sallam@cyberx.sa",
+    "location": "Riyadh, Saudi Arabia",
+    "image": "a.sallam.jpg",
+    "cover": "cover.png",
+    "vCard": "a.sallam.vcf"
   }
+    
 ]
