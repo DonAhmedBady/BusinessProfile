@@ -152,8 +152,25 @@
     "cover": "cover.png",
     "vCard": "a.hassan.vcf"
   },
+
      {
     "id": "1013",
+    "name": "Ahmad Kontar",
+    "position": "Software Engineer",
+    "company": "CyberXi",
+    "website": "https://cyberxi.sa",
+    "bio": "Acting as a Product Engineer with technical autonomy, I drive the engineering lifecycle—from architectural decisions to deployment—while partnering closely with product leadership to build compliant GRC solutions.",
+    "skills": ["Artificial Intelligence (AI)", "Django REST Framework", "Product Engineering"],
+    "linkedin": "https://www.linkedin.com/in/ahmedkentar/",
+    "email": "a.kentar@cyberx.sa",
+    "location": "Jeddah, Saudi Arabia",
+    "image": "a.kontar.png",
+    "cover": "cover.png",
+    "vCard": "a.kontar.vcf"
+  },
+    
+     {
+    "id": "1014",
     "name": "Mashael Alharbi",
     "position": "Cybersecurity Specialist",
     "company": "CyberXi",
@@ -173,7 +190,7 @@
    },
 
   {
-    "id": "1014",
+    "id": "1015",
     "name": "Shahad Alazmi",
     "position": "Cybersecurity Specialist",
     "company": "CyberXi",
@@ -193,7 +210,7 @@
   },
     
   {
-    "id": "1015",
+    "id": "1016",
     "name": "Ahmad Sallam",
     "position": "Sales Director",
     "company": "CyberXi",
