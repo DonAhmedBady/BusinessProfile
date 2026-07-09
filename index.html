@@ -97,48 +97,6 @@ body {
     100% { top: 128px; }
 }
 
-.clearance-tag {
-    position: absolute;
-    top: 14px;
-    left: 20px;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.62rem;
-    letter-spacing: 1.5px;
-    color: var(--amber);
-    border: 1px solid rgba(255, 176, 32, 0.35);
-    background: rgba(255, 176, 32, 0.08);
-    padding: 3px 8px;
-    border-radius: 2px;
-    z-index: 15;
-}
-
-.status-tag {
-    position: absolute;
-    top: 14px;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.62rem;
-    letter-spacing: 1.5px;
-    color: var(--success);
-    z-index: 15;
-}
-.status-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--success);
-    box-shadow: 0 0 0 0 rgba(0,255,157,0.6);
-    animation: pulse 1.8s ease-out infinite;
-}
-@keyframes pulse {
-    0%   { box-shadow: 0 0 0 0 rgba(0,255,157,0.55); }
-    70%  { box-shadow: 0 0 0 7px rgba(0,255,157,0); }
-    100% { box-shadow: 0 0 0 0 rgba(0,255,157,0); }
-}
-
 .photo-frame {
     position: relative;
     width: 128px;
@@ -340,8 +298,6 @@ function createProfile(employee) {
         <span class="corner-br"></span>
         <div class="header-visual">
             <div class="scanline"></div>
-            <div class="clearance-tag"></div>
-            <div class="status-tag"><span class="status-dot"></span>ACTIVE</div>
         </div>
         <div class="content">
             <div class="photo-frame">
@@ -369,8 +325,6 @@ function createProfile(employee) {
         card.querySelector('.header-visual').style.backgroundSize = 'cover';
         card.querySelector('.header-visual').style.backgroundPosition = 'center';
     }
-
-    card.querySelector('.clearance-tag').textContent = employee.clearance || 'CLR-01';
 
     // Profile image
     const img = card.querySelector('.profile-img');
